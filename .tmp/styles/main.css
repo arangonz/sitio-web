@@ -11,13 +11,11 @@
   height: 28px;
   position: absolute;
   background: url(../images/social_sprites.png) 0 0 no-repeat;
-  display: block;
   list-style: none;
 }
 #iconmenu a {
   width: 28px;
   height: 28px;
-  display: block;
 }
 #iconmenu #twitterIcon {
   background-position: -29px 0;
@@ -29,6 +27,15 @@
 #iconmenu #googleIcon {
   left: 71px;
   background-position: -58px 0;
+}
+.principal {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  text-align: justify;
+}
+.carrusel {
+  width: 85%;
+  margin-left: 6%;
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {

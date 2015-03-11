@@ -1,26 +1,24 @@
 @body-bg: #87A500;
 @text-color: #fff;
-
+@tamano-icon: 28px;
 #iconmenu {
     position: relative;
-    margin-left:70%;
+    margin-left: 70%;
     margin-top: 10px;
     padding: 3px;
     width: 100px;
-    height: 28px;
+    height: @tamano-icon;
 }
 #iconmenu li {
-    width: 28px;
-    height: 28px;
+    width: @tamano-icon;
+    height: @tamano-icon;
     position: absolute;
     background: url(../images/social_sprites.png) 0 0 no-repeat;
-    display: block;
     list-style: none;
 }
 #iconmenu a {
-    width: 28px;
-    height: 28px;
-    display: block;
+    width: @tamano-icon;
+    height: @tamano-icon;
 }
 #iconmenu #twitterIcon {
     background-position: -29px 0;
@@ -32,4 +30,13 @@
 #iconmenu #googleIcon {
     left: 71px;
     background-position: -58px 0;
+}
+.principal {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: justify;
+}
+.carrusel {
+    width: 85%;
+    margin-left: 6%;
 }
