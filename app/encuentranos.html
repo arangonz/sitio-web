@@ -40,7 +40,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li ><a href="index.html">Hotel</a>
+                    <li><a href="index.html">Hotel</a>
                     </li>
                     <li><a href="habitaciones.html">Habitaciones</a>
                     </li>
@@ -54,16 +54,27 @@
             </div>
         </div>
     </div>
-    <div class="container">
-
+    <div class="container principal">
+        <h1>Habitaciones</h1>
+        <p>Podras encontrarnos al suroeste de la provincia de Teruel, en el municipio de Bronchales,rodeados por una gran masa de pinares en plena Sierra de Albarracín.</p>
+        <p><strong>Dirección: Calle de los Fueros, 8 44367 Bronchales, Teruel España</strong> </p>
+        <p><span class="resaltar" >Distancias por carretera:</span></p>
+        <ul>
+            <li><span class="resaltar">Albarracín:</span> a 28 km, unos 20 minutos.</li>
+            <li><span class="resaltar">Teruel:</span> a 55 km, unos 40 minutos.</li>
+            <li><span class="resaltar">Valencia:</span> a 201 km, una hora y media.</li>
+            <li><span class="resaltar">Zaragoza:</span> a 172 km, una hora y 45 minutos.</li>
+            <li><span class="resaltar">Madrid:</span> a 258 km, unas 2 horas y media.</li>
+        </ul>
+        <div id="googleMap"></div>
 
 
     </div>
     <div class="navbar-inverse navbar-fixed-bottom">
-      <div class="container">
-    <div class="navbar-text pull-left">
-        <a href="documentacion.txt">Documentación</a>
-    </div>
+        <div class="container">
+            <div class="navbar-text pull-left">
+                <a href="documentacion.txt">Documentación</a>
+            </div>
             <ul id="iconmenu">
                 <li id="twitterIcon">
                     <a href="https://twitter.com/HotelSuiza" target="blanck"></a>
@@ -84,7 +95,7 @@
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
     <!-- build:js scripts/plugins.js -->
     <script src="../bower_components/bootstrap/js/affix.js"></script>
     <script src="../bower_components/bootstrap/js/alert.js"></script>

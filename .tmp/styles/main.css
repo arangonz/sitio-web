@@ -12,10 +12,12 @@
   position: absolute;
   background: url(../images/social_sprites.png) 0 0 no-repeat;
   list-style: none;
+  display: block;
 }
 #iconmenu a {
   width: 28px;
   height: 28px;
+  display: block;
 }
 #iconmenu #twitterIcon {
   background-position: -29px 0;
@@ -36,6 +38,22 @@
 .carrusel {
   width: 85%;
   margin-left: 6%;
+}
+#enviaForm {
+  margin-left: 40%;
+  margin-top: 16px;
+  width: 100px;
+}
+#googleMap {
+  margin-top: 3%;
+  width: 100%;
+  height: 300px;
+}
+.resaltar {
+  font-weight: bold;
+}
+video {
+  margin-top: 20px;
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
