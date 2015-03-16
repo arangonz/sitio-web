@@ -1,1 +1,23 @@
 DOCUMENTACION:
+
+Fuentes google :
+
+http://www.google.com/fonts#UsePlace:use/Collection:Varela+Round
+---------------------------------------------------------------------
+
+Frameworks css:
+
+-Bootstrap
+-Less
+---------------------------------------------------------------------
+Paleta de Color:
+
+-#91A900 (verde)
+-#222222 (negro)
+-#fff(blanco)
+
+---------------------------------------------------------------------
+
+Otros:
+Gimp (edición de imagen)
+Api Google Maps (mapa)
